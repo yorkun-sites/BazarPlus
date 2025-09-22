@@ -37,7 +37,7 @@
 
     section {
       padding: 40px;
-      max-width: 800px;
+      max-width: 1000px;
       margin: auto;
     }
 
@@ -48,76 +48,24 @@
     }
 
     .product {
+      display: flex;
+      align-items: center;
+      gap: 20px;
       border: 1px solid #ccc;
       padding: 15px;
-      margin: 10px 0;
+      margin: 20px 0;
       border-radius: 5px;
       background-color: #f9f9f9;
+    }
+
+    .product img {
+      width: 150px;
+      height: auto;
+      border-radius: 5px;
     }
 
     footer {
       background-color: #2c3e50;
       color: white;
       text-align: center;
-      padding: 20px 0;
-      margin-top: 40px;
-    }
-  </style>
-</head>
-<body>
-
-  <header>
-    <h1>Добре дошли в BazarPlus</h1>
-    <p>Вашето място за изгодни покупки</p>
-  </header>
-
-  <nav>
-    <a href="#home">Начало</a>
-    <a href="#products">Продукти</a>
-    <a href="#contacts">Контакти</a>
-    <a href="#other">Други</a>
-  </nav>
-
-  <section id="home">
-    <h2>Начало</h2>
-    <p>Добре дошли в нашия онлайн магазин. Тук ще откриете разнообразие от продукти на страхотни цени.</p>
-  </section>
-
-  <section id="products">
-    <h2>Продукти</h2>
-
-    <div class="product">
-      <h3>Продукт 1</h3>
-      <p>Описание на продукта 1. Цена: 25 лв.</p>
-    </div>
-
-    <div class="product">
-      <h3>Продукт 2</h3>
-      <p>Описание на продукта 2. Цена: 39 лв.</p>
-    </div>
-
-    <div class="product">
-      <h3>Продукт 3</h3>
-      <p>Описание на продукта 3. Цена: 59 лв.</p>
-    </div>
-
-  </section>
-
-  <section id="contacts">
-    <h2>Контакти</h2>
-    <p>Имейл: <a href="mailto:info@bazarplus.com">info@bazarplus.com</a></p>
-    <p>Телефон: +359 88 123 4567</p>
-    <p>Адрес: гр. София, ул. Примерна 1</p>
-  </section>
-
-  <section id="other">
-    <h2>Други</h2>
-    <p>Допълнителна информация, условия за доставка, връщане на стоки и др.</p>
-  </section>
-
-  <footer>
-    &copy; 2025 BazarPlus. Всички права запазени.
-  </footer>
-
-</body>
-</html>
+      padding: 2
